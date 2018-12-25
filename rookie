@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+
+public class you {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String fistNumber =JOptionPane.showInputDialog("Enter:");
+		JOptionPane.showMessageDialog(null, fistNumber);
+		System.exit(0);
+	}
+
+}
